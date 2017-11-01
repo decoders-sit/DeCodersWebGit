@@ -57,7 +57,7 @@ $abstract_name="";
 						$email = array();
 						$phn = $member[0]['phone'];
 						require_once('Way2SMS-API-master/way2sms-api.php');
-						sendWay2SMS ( '9199223404' , 'ajay127' , $phn , 'DeCoders - Thank you for registering for inSight17. We will get back to you if your solution is accepted.');
+						sendWay2SMS ( '9199223404' , '' , $phn , 'DeCoders - Thank you for registering for inSight17. We will get back to you if your solution is accepted.');
 
 						for($itr=0;$itr<$membersCount;$itr++)
 						{
